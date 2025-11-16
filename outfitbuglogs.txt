@@ -1,442 +1,1416 @@
-{
-  "user": "fd371f26-701c-421f-9331-b087db2f48be",
-  "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-  "session": "255eaf88394fb3f54b039123eab10fb2",
-  "recording_id": "",
-  "level_id": "Night",
-  "pool_type": "RecordingCandle",
-  "recording_data": {
-    "ver": 1,
-    "stid": "eb6695c4-795a-9ff8-1d64-74477bb395fe",
-    "ssu": "",
-    "ppsp": "(0,36.004,0)",
-    "chln": 4,
-    "chet": 4.0810585,
-    "stfs": [
-      "ps", "or", "tor", "v", "hd", "rv", "fv", "fp", "gl", "rs",
-      "glo", "crp", "rnp", "sfp", "post", "co", "cs", "pa", "pst", "pest",
-      "fop", "fl", "fr", "ta", "bid0", "bid1", "bid2", "bc", "mel", "gmi",
-      "gmsi", "igk", "ig", "isf", "ifbs", "it"
-    ],
-    "strs": [],
-    "plyr": [
-      {
-        "phdr": {
-          "twbc": 241,
-          "wbc": 218,
-          "ecm": 1,
-          "ec": 12,
-          "e": 12,
-          "it": 255,
-          "in": 0,
-          "iss": false,
-          "sn": 0,
-          "vip": 0,
-          "id": "d1049aba-dc14-109d-d774-2e7367d75e65"
-        },
-        "sts": [
-          [7, "-12.03,36.64,-87.94", "-0.2,0,0", "-0.2,0,0"],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0]
-        ],
-        "ofts": [
-          [
-            1729525340023431726, 1.12, -0.04, 9,
-            3172558216, 662395186, 2494409544, 3663390882,
-            1387420248, 2228162224, 3680499229, 1620195144,
-            3911262457, 1470462579, 63, 45, 45
-          ]
-        ],
-        "plac": [
-          [
-            1407, 0, "MischiefCauldron", "-12.51,36,-86.35",
-            "1,0,-0.09", "-0,1,0", "0.09,-0,1",
-            41, 4.5, "1,1,1"
-          ]
-        ],
-        "flam": [
-          [7, 0, 41, true]
-        ],
-        "placs": [
-          [7, 0, 41, true]
-        ]
-      }
-    ]
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[📤] SSLWrite (515 bytes)
+[ASCII]:
+POST /service/recording/api/v2/create HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: JVV1Q
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 1246
+
+
+
+
+[📤] SSLWrite (1246 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","recording_id":"","level_id":"Night","pool_type":"RecordingCandle","recording_data":{"ver":1,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ssu":"","ppsp":"(0,36.004,0)","chln":4,"chet":4.061523,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"strs":[],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255,"in":0,"iss":false,"sn":0,"vip":0,"id":"77563ece-0541-ce77-0d67-730c3d462aae"},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,-0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"plac":[[1407,0,"MischiefCauldron","-11.54,36,-99.91","0.88,0,0.47","-0,1,-0","-0.47,-0,0.88",41,4.5,"1,1,1"]],"flam":[[7,0,41,true]],"placs":[[7,0,41,true]]}]}}
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 244
+🔗 Connection: keep-alive
+
+[📥] SSLRead (408 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:10 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 244
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"status":"OK","recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","link":"s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson","seek_table":{"0":{"end":934,"start":0}}}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: Mxcx0Hi
+📄 Content-Type: application/json
+📏 Content-Length: 552
+
+[📤] SSLWrite (529 bytes)
+[ASCII]:
+POST /service/social-feed/api/v2/get_curated_feeds HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: Mxcx0Hi
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 552
+
+
+
+
+[📤] SSLWrite (552 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","search_area":{"coordinates":"(-2,31,-95)","pool_type":"MessageStone","pool_name":"Night","level_id":"Night","inner_radius":16,"outer_radius":0,"vertical_radius":24},"amounts_returned":{"inner_ring":{"local":0,"friends":16,"followed":16,"public":16,"exact_amount":true},"outer_ring":{"local":0,"friends":0,"followed":0,"public":0,"exact_amount":false}},"page":0,"random_seed":20407000,"get_full_documents":true}
+
+📄 Content-Type: application/json; charset=utf-8
+📏 Content-Length: 158
+🔗 Connection: keep-alive
+
+[📥] SSLRead (328 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 158
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"inner_ring":{"local":null,"friends":null,"followed":null,"public":null,"total_friends":0,"total_followed":0,"total_available_results":0},"outer_ring":null}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: 4CFRCch
+📄 Content-Type: application/json
+📏 Content-Length: 1318
+
+[📤] SSLWrite (517 bytes)
+[ASCII]:
+POST /service/recording/api/v2/update HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: 4CFRCch
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 1318
+
+
+
+
+[📤] SSLWrite (1318 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","chunk":1,"recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","recording_data":{"ver":1,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ssu":"","ppsp":"(0,36.004,0)","chln":4,"chet":8.0737391,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"strs":[],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255,"in":0,"iss":false,"sn":0,"vip":0,"id":"77563ece-0541-ce77-0d67-730c3d462aae"},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"plac":[[1407,0,"MischiefCauldron","-11.54,36,-99.91","0.88,0,0.47","-0,1,-0","-0.47,-0,0.88",41,4.5,"1,1,1"],[191,3.08,"","11.54,-36,99.91","-0.88,-0,-0.47","0,-1,0","0.47,0,-0.88",1]],"flam":[[7,0,41,true]],"placs":[[7,0,41,true]]}]}}
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 273
+🔗 Connection: keep-alive
+
+[📥] SSLRead (437 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:14 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 273
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"status":"OK","recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","link":"s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson","seek_table":{"0":{"end":934,"start":0},"1":{"end":1945,"start":936}}}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: vMRWtKr
+📄 Content-Type: application/json
+📏 Content-Length: 1228
+
+[📤] SSLWrite (517 bytes)
+[ASCII]:
+POST /service/recording/api/v2/update HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: vMRWtKr
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 1228
+
+
+
+
+[📤] SSLWrite (1228 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","chunk":2,"recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","recording_data":{"ver":1,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ssu":"","ppsp":"(0,36.004,0)","chln":4,"chet":12.087473,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"strs":[],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255,"in":0,"iss":false,"sn":0,"vip":0,"id":"77563ece-0541-ce77-0d67-730c3d462aae"},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"plac":[[1407,3.76,"MischiefCauldron","-9.83,36,-98.98","0.99,0,0.12","-0,1,-0","-0.12,0,0.99",41,4.5,"0.99,0.99,0.99"]],"placs":[[3,3.76,41]]}]}}
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 303
+🔗 Connection: keep-alive
+
+[📥] SSLRead (467 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:18 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 303
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"status":"OK","recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","link":"s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson","seek_table":{"0":{"end":934,"start":0},"1":{"end":1945,"start":936},"2":{"end":2866,"start":1947}}}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: SoOOLcH
+📄 Content-Type: application/json
+📏 Content-Length: 1180
+
+[📤] SSLWrite (517 bytes)
+[ASCII]:
+POST /service/recording/api/v2/update HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: SoOOLcH
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 1180
+
+
+
+
+[📤] SSLWrite (1180 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","chunk":3,"recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","recording_data":{"ver":1,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ssu":"","ppsp":"(0,36.004,0)","chln":4,"chet":14.669187,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"strs":[],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255,"in":0,"iss":false,"sn":0,"vip":0,"id":"77563ece-0541-ce77-0d67-730c3d462aae"},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"plac":[[1407,0,"MischiefCauldron","-9.83,36,-98.98","0.99,0,0.12","-0,1,-0","-0.12,0,0.99",41,4.5,"0.99,0.99,0.99"]],"flam":[[3,0,41]],"placs":[[3,0,41]]}]}}
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 333
+🔗 Connection: keep-alive
+
+[📥] SSLRead (497 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:20 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 333
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"status":"OK","recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","link":"s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson","seek_table":{"0":{"end":934,"start":0},"1":{"end":1945,"start":936},"2":{"end":2866,"start":1947},"3":{"end":3739,"start":2868}}}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: pK166lr
+📄 Content-Type: application/json
+📏 Content-Length: 553
+
+[📤] SSLWrite (529 bytes)
+[ASCII]:
+POST /service/social-feed/api/v2/get_curated_feeds HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: pK166lr
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 553
+
+
+
+
+[📤] SSLWrite (553 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","search_area":{"coordinates":"(-21,44,-98)","pool_type":"MessageStone","pool_name":"Night","level_id":"Night","inner_radius":16,"outer_radius":0,"vertical_radius":24},"amounts_returned":{"inner_ring":{"local":0,"friends":16,"followed":16,"public":16,"exact_amount":true},"outer_ring":{"local":0,"friends":0,"followed":0,"public":0,"exact_amount":false}},"page":0,"random_seed":20407000,"get_full_documents":true}
+
+📄 Content-Type: application/json; charset=utf-8
+📏 Content-Length: 158
+🔗 Connection: keep-alive
+
+[📥] SSLRead (325 bytes)
+[ASCII]:
+P/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 158
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"inner_ring":{"local":null,"friends":null,"followed":null,"public":null,"total_friends":0,"total_followed":0,"total_available_results":0},"outer_ring":null}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: pYeHezu
+📄 Content-Type: application/json
+📏 Content-Length: 263
+
+[📤] SSLWrite (513 bytes)
+[ASCII]:
+POST /service/recording/api/v2/get HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: pYeHezu
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 263
+
+
+
+
+[📤] SSLWrite (263 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","level_id":"Night","user_id":"fd371f26-701c-421f-9331-b087db2f48be"}
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 438
+🔗 Connection: keep-alive
+
+[📥] SSLRead (602 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:22 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 438
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"MongoID":"691941462c26828f12d585b0","status":"OK","recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","seek_table":{"0":{"end":934,"start":0},"1":{"end":1945,"start":936},"2":{"end":2866,"start":1947},"3":{"end":3739,"start":2868}},"link":"s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson","user_id":"fd371f26-701c-421f-9331-b087db2f48be","level_id":"Night"}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: hujjiqi
+📄 Content-Type: application/json
+📏 Content-Length: 0
+
+[📤] SSLWrite (586 bytes)
+[ASCII]:
+GET /ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Range: bytes=0-934
+Content-Type: application/json
+trace-id: hujjiqi
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 0
+
+
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 935
+🔗 Connection: keep-alive
+
+[📥] SSLRead (1415 bytes)
+[ASCII]:
+HTTP/1.1 206 Partial Content
+Date: Sun, 16 Nov 2025 03:13:22 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 935
+Connection: keep-alive
+x-amz-id-2: v5b99uEh8nmJ6cK9djow92VU3zNpqbpT95/BEZzQRVMnt8EVGzNVkR+KbVSfnp36PfKH6QBKRvk=
+x-amz-request-id: HPBKAZA8APRBH2XW
+Last-Modified: Sun, 16 Nov 2025 03:13:21 GMT
+ETag: "98cb14ab5d2d3efc538f132f5e243326"
+x-amz-server-side-encryption: AES256
+Accept-Ranges: bytes
+Content-Range: bytes 0-934/3740
+Server: AmazonS3
+
+{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,-0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"flam":[[7,0,41,true]],"plac":[[1407,0,"MischiefCauldron","-11.54,36,-99.91","0.88,0,0.47","-0,1,-0","-0.47,-0,0.88",41,4.5,"1,1,1"]],"placs":[[7,0,41,true]]}],"chet":4.061523,"chln":4,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ppsp":"(0,36.004,0)"}
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: g7VAWYi
+📄 Content-Type: application/json
+📏 Content-Length: 0
+
+[📤] SSLWrite (589 bytes)
+[ASCII]:
+GET /ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Range: bytes=936-1945
+Content-Type: application/json
+trace-id: g7VAWYi
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 0
+
+
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 1010
+🔗 Connection: keep-alive
+
+[📥] SSLRead (1494 bytes)
+[ASCII]:
+HTTP/1.1 206 Partial Content
+Date: Sun, 16 Nov 2025 03:13:22 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 1010
+Connection: keep-alive
+x-amz-id-2: fHPJOcCkSe9023m3eKjvIr9d+9gxNbJhLo/LKxHqoJpDDyi6JZkNnTyhlOZhuNphD+sCuRiiNlk=
+x-amz-request-id: HPBSDS0WE6CRM0NS
+Last-Modified: Sun, 16 Nov 2025 03:13:21 GMT
+ETag: "98cb14ab5d2d3efc538f132f5e243326"
+x-amz-server-side-encryption: AES256
+Accept-Ranges: bytes
+Content-Range: bytes 936-1945/3740
+Server: AmazonS3
+
+{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"flam":[[7,0,41,true]],"plac":[[1407,0,"MischiefCauldron","-11.54,36,-99.91","0.88,0,0.47","-0,1,-0","-0.47,-0,0.88",41,4.5,"1,1,1"],[191,3.08,"","11.54,-36,99.91","-0.88,-0,-0.47","0,-1,0","0.47,0,-0.88",1]],"placs":[[7,0,41,true]]}],"chet":8.0737391,"chln":4,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ppsp":"(0,36.004,0)"}
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: 0dZdqwk
+📄 Content-Type: application/json
+📏 Content-Length: 0
+
+[📤] SSLWrite (590 bytes)
+[ASCII]:
+GET /ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Range: bytes=1947-2866
+Content-Type: application/json
+trace-id: 0dZdqwk
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 0
+
+
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 920
+🔗 Connection: keep-alive
+
+[📥] SSLRead (1144 bytes)
+[ASCII]:
+ ENTPQV7059EMRN3S
+Last-Modified: Sun, 16 Nov 2025 03:13:21 GMT
+ETag: "98cb14ab5d2d3efc538f132f5e243326"
+x-amz-server-side-encryption: AES256
+Accept-Ranges: bytes
+Content-Range: bytes 1947-2866/3740
+Server: AmazonS3
+
+{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"plac":[[1407,3.76,"MischiefCauldron","-9.83,36,-98.98","0.99,0,0.12","-0,1,-0","-0.12,0,0.99",41,4.5,"0.99,0.99,0.99"]],"placs":[[3,3.76,41]]}],"chet":12.087473,"chln":4,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ppsp":"(0,36.004,0)"}
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: aqZJ4eX
+📄 Content-Type: application/json
+📏 Content-Length: 0
+
+[📤] SSLWrite (590 bytes)
+[ASCII]:
+GET /ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Range: bytes=2868-3739
+Content-Type: application/json
+trace-id: aqZJ4eX
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 0
+
+
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 872
+🔗 Connection: keep-alive
+
+[📥] SSLRead (1356 bytes)
+[ASCII]:
+HTTP/1.1 206 Partial Content
+Date: Sun, 16 Nov 2025 03:13:23 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 872
+Connection: keep-alive
+x-amz-id-2: P5JtVTrOTrcCRLOf58tPaA4/7hG41tIAAHGcWPUi0PIThK0aoIw2qQl6/dwY3UN8Wv0iRs238bU=
+x-amz-request-id: ENTJ05QERRMEZMMS
+Last-Modified: Sun, 16 Nov 2025 03:13:21 GMT
+ETag: "98cb14ab5d2d3efc538f132f5e243326"
+x-amz-server-side-encryption: AES256
+Accept-Ranges: bytes
+Content-Range: bytes 2868-3739/3740
+Server: AmazonS3
+
+{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"flam":[[3,0,41]],"plac":[[1407,0,"MischiefCauldron","-9.83,36,-98.98","0.99,0,0.12","-0,1,-0","-0.12,0,0.99",41,4.5,"0.99,0.99,0.99"]],"placs":[[3,0,41]]}],"chet":14.669187,"chln":4,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ppsp":"(0,36.004,0)"}
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: Draa0Fo
+📄 Content-Type: application/json
+📏 Content-Length: 263
+
+[📤] SSLWrite (513 bytes)
+[ASCII]:
+POST /service/recording/api/v2/get HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: Draa0Fo
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 263
+
+
+
+
+[📤] SSLWrite (263 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","level_id":"Night","user_id":"fd371f26-701c-421f-9331-b087db2f48be"}
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 438
+🔗 Connection: keep-alive
+
+[📥] SSLRead (602 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:27 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 438
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"MongoID":"691941462c26828f12d585b0","status":"OK","recording_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","seek_table":{"0":{"end":934,"start":0},"1":{"end":1945,"start":936},"2":{"end":2866,"start":1947},"3":{"end":3739,"start":2868}},"link":"s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson","user_id":"fd371f26-701c-421f-9331-b087db2f48be","level_id":"Night"}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: ddOhAtm
+📄 Content-Type: application/json
+📏 Content-Length: 3
+
+[📤] SSLWrite (586 bytes)
+[ASCII]:
+GET /ugc/fd371f26-701c-421f-9331-b087db2f48be/6b53bebf-0251-486d-82c4-b4bb3bff4a01.ndjson HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Range: bytes=0-934
+Content-Type: application/json
+trace-id: ddOhAtm
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 3
+
+
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 935
+🔗 Connection: close
+
+[📥] SSLRead (994 bytes)
+[ASCII]:
+HTTP/1.1 206 Partial Content
+Date: Sun, 16 Nov 2025 03:13:27 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 935
+Connection: close
+x-amz-id-2: sQGxnF6iOTAeJYus43NY5hyTkPWHgHwV6+HmXlYKifyvaKTe4x3/36I+aSR6Gi4QtADb9fmz5fA=
+x-amz-request-id: 0P1ZBRQXBN2GWTR8
+Last-Modified: Sun, 16 Nov 2025 03:13:21 GMT
+ETag: "98cb14ab5d2d3efc538f132f5e243326"
+x-amz-server-side-encryption: AES256
+Accept-Ranges: bytes
+Content-Range: bytes 0-934/3740
+Server: AmazonS3
+
+{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-9.69,36.64,-100.49","-1.14,0,-0","-1.14,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null
+
+
+[📥] SSLRead (416 bytes)
+[ASCII]:
+,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"flam":[[7,0,41,true]],"plac":[[1407,0,"MischiefCauldron","-11.54,36,-99.91","0.88,0,0.47","-0,1,-0","-0.47,-0,0.88",41,4.5,"1,1,1"]],"placs":[[7,0,41,true]]}],"chet":4.061523,"chln":4,"stid":"5bc0d1c8-897f-50b2-2e54-86e506c55d75","ppsp":"(0,36.004,0)"}
+
+[🔒] SSLClose
+[🔧] SSLCreateContext
+[✅] SSLCreateContext OK
+[📡] SSLSetIOFuncs
+[📜] SSLSetProtocolVersionMin
+[⚙️] SSLSetSessionOption
+[🔗] SSLSetConnection
+[🌐] DOMAIN: live.radiance.thatgamecompany.com
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[🔑] SSLCopyPeerTrust
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[📊] SSLGetSessionState
+[🤝] SSLHandshake START
+[🤝] SSLHandshake DONE
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: GgJkzPt
+📄 Content-Type: application/json
+📏 Content-Length: 556
+
+[📤] SSLWrite (529 bytes)
+[ASCII]:
+POST /service/social-feed/api/v2/get_curated_feeds HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: GgJkzPt
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 556
+
+
+
+
+[📤] SSLWrite (556 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","search_area":{"coordinates":"(-10,36,-98)","pool_type":"RecordingCandle","pool_name":"Night","level_id":"Night","inner_radius":10,"outer_radius":0,"vertical_radius":24},"amounts_returned":{"inner_ring":{"local":0,"friends":16,"followed":16,"public":16,"exact_amount":true},"outer_ring":{"local":0,"friends":0,"followed":0,"public":0,"exact_amount":false}},"page":0,"random_seed":20407000,"get_full_documents":true}
+
+📄 Content-Type: application/json; charset=utf-8
+📏 Content-Length: 14526
+🔗 Connection: keep-alive
+
+[📥] SSLRead (2048 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 14526
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"inner_ring":{"local":null,"friends":null,"followed":null,"public":[{"social_feed_id":"4e4f8df0-123b-4ab3-9766-7c195e40de06:423f4e6f","user_id":"23edf1c3-adbc-4cd2-b773-e47d04009ad6:092b6c74","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-13T15:47:45.113Z","expire_at":"2025-11-27T15:47:45.111Z","message":":3 mi primero gracias :)😇 ","tags":null,"extra_data":{"chunk_count":11,"ori":"(0,1,0,-0)","parent_social_feed_id":"c64b6e1b-fbc6-4b0f-aff7-aac777ffd148","parent_social_feed_seq":1,"parent_social_feed_type":6,"parent_user_id":"46c25529-885b-4088-84d3-45e714934de4","pos":"(1.331,33.38,-81.049)","prompt_used":"","resource_id":"7872cfc9-6cea-44d4-b2c3-50e5bf397584","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"6fcb0733-53b2-419a-a03a-7f6a7e730737:8954e5cf","user_id":"98eb854b-6551-478a-8dd6-b02a14d6bc19:10edef96","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-03T08:42:59.257Z","expire_at":"2025-11-17T08:42:59.255Z","message":";-;.","tags":null,"extra_data":{"chunk_count":7,"ori":"(0,0.679,0,0.734)","pos":"(-10.554,36.004,-92.196)","prompt_used":"","resource_id":"fc37e7b4-663b-4853-8a13-918ccb9e8570","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments
+
+
+[📥] SSLRead (2048 bytes)
+[ASCII]:
+_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"de099a6d-55be-43eb-b82d-ffea651ddd79:0f6602de","user_id":"79a27e95-dc77-4a5b-9325-8dd05cb56a02:e8a511bb","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-08T13:07:16.638Z","expire_at":"2025-11-22T13:07:16.635Z","message":"Luv Letter | Final Part | Thanks for finding","tags":null,"extra_data":{"chunk_count":15,"ori":"(0,0.716,0,0.698)","pos":"(3.805,32.602,-84.952)","prompt_used":"","resource_id":"6e25a823-1bf7-4b3f-9aed-2650eec4dd99","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":15,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":1,"total_reported_comment_count":0,"is_poisoned":false,"score":3.3333333333333335},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"73d17a2c-db27-466f-a525-c7e113a57cf3:97114a66","user_id":"c7dc067b-ce15-421b-b8fe-0aea40ca68d7:2ed87bd8","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-09T21:24:24.863Z","expire_at":"2025-11-23T21:24:24.862Z","message":"♥️♥️♥️","tags":null,"extra_data":{"chunk_count":1,"ori":"(0,0.693,0,0.721)","pos":"(-7.932,36.004,-103.148)","prompt_used":"","resource_id":"bb370bff-ca9c-4d1d-9b73-195748aeeb0f","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":5,"total_like_reward_message_id":0,"total_super_like_count":5,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0.8333333333333333},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"03934982-da52-48b9-88d1-f5529498edf5:8ea73b62","user_id":"071f2646-25de-4504-8506-230d3c95f09a:4e3b1668","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-09T15:
+
+
+[📥] SSLRead (2048 bytes)
+[ASCII]:
+35:31.764Z","expire_at":"2025-11-23T15:35:31.761Z","message":"aaaaaaaa😭😭😭😭","tags":null,"extra_data":{"chunk_count":15,"ori":"(0,1,0,0.011)","pos":"(0.318,33.383,-80.436)","prompt_used":"","resource_id":"e08367e0-4275-48fe-95d3-fe804f61b409","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"36cababd-1999-4472-b3de-646dbf034205:77e6a83b","user_id":"9c12354a-c9c6-475b-b2e8-c2d4cc4545d8:b384398f","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-08T19:07:35.638Z","expire_at":"2025-11-22T19:07:35.636Z","message":"If you don’t have a friend with you :) ","tags":null,"extra_data":{"chunk_count":6,"ori":"(0,-0,-0,1)","parent_social_feed_id":"b8478928-926b-47fe-9c5f-eff9509a6b32","parent_social_feed_seq":1,"parent_social_feed_type":6,"parent_user_id":"9c12354a-c9c6-475b-b2e8-c2d4cc4545d8","pos":"(-15.28,35.972,-97.608)","prompt_used":"","resource_id":"9526a0cb-816c-4aca-9dc4-2bd5d529ca5d","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":51,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":5,"total_reported_comment_count":0,"is_poisoned":false,"score":12.666666666666668},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"a15c3c4c-f866-4e4e-9632-d1dad71c1e93:d8ce6c6b","user_id":"972e922f-07a8-48b4-91b3-0f77753896bd:01c6c574","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-15T07:02:14.484Z","expire_at":"2025-11-29T07:02:14.482Z","message":"自用","tags":null,"extra_data":{"chunk_count":7,"ori":"(0,0
+
+
+[📥] SSLRead (2048 bytes)
+[ASCII]:
+.891,0,-0.454)","pos":"(-0.9,32.061,-86.799)","prompt_used":"","resource_id":"7e58fb44-9f8b-4875-9836-c994fb998b44","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"3e414cdb-2342-44a7-8597-c72c62687166:75d1c8b9","user_id":"f7f43549-c3bd-4aaf-93a7-46cdeac95a85:a8326340","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-07T23:55:28.475Z","expire_at":"2025-11-21T23:55:28.473Z","message":"J'espère que ce souvenir vous aidera ","tags":null,"extra_data":{"chunk_count":15,"ori":"(0,0.701,0,0.713)","parent_social_feed_id":"60caa58b-d074-4e5d-944a-2adf9ebb8f02","parent_social_feed_seq":1,"parent_social_feed_type":6,"parent_user_id":"85a7af1a-c651-47fa-865d-e7c1b5e33219","pos":"(-10.452,36.004,-98.164)","prompt_used":"","resource_id":"41a05df1-4049-49a2-8c68-8ae78f1d31d7","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":14,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":2.333333333333333},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"8b0cbee2-f9dc-407a-9d19-c4299a887ce3:1c5842e7","user_id":"cfdd8e3f-ee3f-447a-87b4-c611b744614b:595a8e20","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-03T12:12:13.386Z","expire_at":"2025-11-17T12:12:13.385Z","message":"记得带上相机，四楼直通车，测试","tags":null,"extra_data":{"chunk_count":14,"ori":"(0,0.823,0,0.568)","pos":"(-4.802,32.005,-95.803)","prompt_used":"","resource_id":"ad80c857-e5ec-4
+
+
+[📥] SSLRead (2048 bytes)
+[ASCII]:
+8b0-90b7-2bd07b411a80","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":1,"total_like_count":8,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":2,"total_reported_comment_count":0,"is_poisoned":false,"score":3},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"4e9a05de-d62a-4c0f-ade7-8a548aff518a:c16e37cb","user_id":"b4aba90d-8c9b-4544-a5db-d547b3d8fc30:286bc818","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-02T12:55:02.727Z","expire_at":"2025-11-16T12:55:02.726Z","message":"BOO!","tags":null,"extra_data":{"chunk_count":10,"ori":"(0,1,0,0.005)","pos":"(-0.306,32.715,-83.73)","prompt_used":"","resource_id":"520673a9-724c-4d75-945e-387b5b809cc5","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":2,"total_like_reward_message_id":0,"total_super_like_count":1,"total_comment_count":1,"total_reported_comment_count":0,"is_poisoned":false,"score":1.1666666666666667},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"37cc0f9b-2b0b-4196-bcf3-50107dfe10a4:401cd5df","user_id":"80eda649-c3cd-4876-843f-7c2c347adc75:890db824","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-07T22:42:49.195Z","expire_at":"2025-11-21T22:42:49.194Z","message":"pぇあsえふぉっぉwぉヴぇはrぴst","tags":null,"extra_data":{"chunk_count":15,"ori":"(0,-0.722,0,0.692)","pos":"(-4.394,32.375,-90.127)","prompt_used":"","resource_id":"080ea624-3013-4082-9a9b-bf33e971fe37","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":1,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poison
+
+
+[📥] SSLRead (2048 bytes)
+[ASCII]:
+ed":false,"score":0.16666666666666666},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"2b36e7bd-ea5a-4425-b1a9-5516e5ee4653:4756a309","user_id":"c0bc519e-b205-42c3-a02d-80de53423c59:b07b29b6","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-15T12:14:48.293Z","expire_at":"2025-11-29T12:14:48.291Z","message":"A","tags":null,"extra_data":{"chunk_count":1,"ori":"(0,0.713,0,0.701)","pos":"(3.791,32.063,-95.814)","prompt_used":"","resource_id":"66f528d5-e467-4fec-8491-9a8f6faf0dba","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":1,"total_like_reward_message_id":0,"total_super_like_count":1,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0.16666666666666666},"state":"normal","comments_enabled":false,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"1c9771a8-f921-4644-bfae-c803ecc47c2b:c847eb77","user_id":"c41b5407-c3b1-4824-bae8-d98a6de96f35:4cf2ac3e","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-08T08:12:48.066Z","expire_at":"2025-11-22T08:12:48.065Z","message":":D","tags":null,"extra_data":{"chunk_count":6,"ori":"(0,0.712,0,0.702)","pos":"(-14.176,36.004,-98.284)","prompt_used":"","resource_id":"1437c2a8-b5e2-43b6-a079-ab3df96e882c","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":47,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":9,"total_reported_comment_count":0,"is_poisoned":false,"score":15.333333333333332},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"7ec666ac-1ceb-4d73-8546-a8ddb37c6030:07ad5b77","user_id":"89d53d13-bd5d-44c5-8d8f-f755211b4d60:b1d5fd76","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11
+
+
+[📥] SSLRead (2048 bytes)
+[ASCII]:
+-04T03:03:33.873Z","expire_at":"2025-11-18T03:03:33.872Z","message":"Peno","tags":null,"extra_data":{"chunk_count":14,"ori":"(0,0.007,0,1)","pos":"(1.577,33.076,-82.064)","prompt_used":"","resource_id":"9b12366c-90d7-4f90-97f2-c49653e45942","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":3,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0.5},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"59721b57-b383-486f-8090-982baf998e48:e2717eec","user_id":"64afc5e2-1778-4de0-a180-847bc15c5ad6:7b52047a","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-09T13:15:38.932Z","expire_at":"2025-11-23T13:15:38.931Z","message":"..","tags":null,"extra_data":{"chunk_count":1,"ori":"(0,0,0,1)","pos":"(-19.293,35.972,-97.009)","prompt_used":"","resource_id":"1b14a538-16f9-4b94-bbd2-baee3cab9b71","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false},{"social_feed_id":"0fe29912-b9c0-448e-bb53-204ced88a3c9:15798f5c","user_id":"c9c975c6-d02c-4a04-829c-363336d39c02:14ebfb18","pool_type":"RecordingCandle","pool_name":"Night","create_at":"2025-11-14T06:38:07.121Z","expire_at":"2025-11-28T06:38:07.12Z","message":"Magic!!!","tags":null,"extra_data":{"chunk_count":6,"ori":"(0,0.009,0,1)","pos":"(-1.866,32.061,-86.579)","prompt_used":"","resource_id":"3ca09d5b-a07b-4e6e-b15e-80362f3aa999","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"reactions":{"total_report_count":0,"total_hide_
+
+
+[📥] SSLRead (362 bytes)
+[ASCII]:
+count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments_enabled":true,"local_creation":false,"followed":false,"friend":false}],"total_friends":0,"total_followed":0,"total_available_results":39},"outer_ring":null}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: XUKRPQh
+📄 Content-Type: application/json
+📏 Content-Length: 248
+
+[📤] SSLWrite (525 bytes)
+[ASCII]:
+POST /service/social-feed/api/v1/get_reactions HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: XUKRPQh
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 248
+
+
+
+
+[📤] SSLWrite (248 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","social_feed_id":"36cababd-1999-4472-b3de-646dbf034205","author_id":"9c12354a-c9c6-475b-b2e8-c2d4cc4545d8"}
+
+📄 Content-Type: application/json; charset=utf-8
+📏 Content-Length: 268
+🔗 Connection: keep-alive
+
+[📥] SSLRead (438 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 268
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":51,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":5,"total_reported_comment_count":0,"is_poisoned":false,"score":12.666666666666668},"user_reactions":null}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: user-id: fd371f26-701c-421f-9331-b087db2f48be
+📄 Content-Type: application/json
+📏 Content-Length: 248
+
+[📤] SSLWrite (518 bytes)
+[ASCII]:
+POST /service/social-feed/api/v1/get_reactions HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id:
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 248
+
+
+
+
+[📤] SSLWrite (248 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","social_feed_id":"1c9771a8-f921-4644-bfae-c803ecc47c2b","author_id":"c41b5407-c3b1-4824-bae8-d98a6de96f35"}
+
+📄 Content-Type: application/json; charset=utf-8
+📏 Content-Length: 268
+🔗 Connection: keep-alive
+
+[📥] SSLRead (438 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 268
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":47,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":9,"total_reported_comment_count":0,"is_poisoned":false,"score":15.333333333333332},"user_reactions":null}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: TW7o4a2
+📄 Content-Type: application/json
+📏 Content-Length: 248
+
+[📤] SSLWrite (525 bytes)
+[ASCII]:
+POST /service/social-feed/api/v1/get_reactions HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: TW7o4a2
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 248
+
+
+
+
+[📤] SSLWrite (248 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","social_feed_id":"de099a6d-55be-43eb-b82d-ffea651ddd79","author_id":"79a27e95-dc77-4a5b-9325-8dd05cb56a02"}
+
+📄 Content-Type: application/json; charset=utf-8
+📏 Content-Length: 268
+🔗 Connection: keep-alive
+
+[📥] SSLRead (438 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 268
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":15,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":1,"total_reported_comment_count":0,"is_poisoned":false,"score":3.3333333333333335},"user_reactions":null}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: dHJx8ck
+📄 Content-Type: application/json
+📏 Content-Length: 512
+
+[📤] SSLWrite (518 bytes)
+[ASCII]:
+POST /service/social-feed/api/v1/create HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: dHJx8ck
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 512
+
+
+
+
+[📤] SSLWrite (512 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","pool_type":"RecordingCandle","pool_name":"Night","message":"Test for yeon","private":false,"comments_enabled":true,"tags":["none"],"extra_data":{"pos":"(-9.686,36.004,-100.491)","ori":"(0,0.683,0,0.73)","scale":"(1,1,1)","resource_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","prompt_used":"","sub_type":0,"chunk_count":4,"user_id":"00000000-0000-0000-0000-000000000000"}}
+
+📄 Content-Type: text/plain; charset=utf-8
+📏 Content-Length: 86
+🔗 Connection: keep-alive
+
+[📥] SSLRead (249 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:37 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 86
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"result":"success","social_feed_id":"c9ad7027-7ed7-4d47-b741-5f73f24aa569:e34cfb38"}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: k6f2UR8
+📄 Content-Type: application/json
+📏 Content-Length: 555
+
+[📤] SSLWrite (529 bytes)
+[ASCII]:
+POST /service/social-feed/api/v2/get_curated_feeds HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: k6f2UR8
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 555
+
+
+
+
+[📤] SSLWrite (555 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","search_area":{"coordinates":"(-10,36,-94)","pool_type":"RecordingCandle","pool_name":"Night","level_id":"Night","inner_radius":30,"outer_radius":0,"vertical_radius":72},"amounts_returned":{"inner_ring":{"local":0,"friends":16,"followed":16,"public":0,"exact_amount":true},"outer_ring":{"local":0,"friends":0,"followed":0,"public":0,"exact_amount":false}},"page":0,"random_seed":20407000,"get_full_documents":true}
+
+📄 Content-Type: application/json; charset=utf-8
+📏 Content-Length: 158
+
+[📥] SSLRead (205 bytes)
+[ASCII]:
+onnection: keep-alive
+Server: nginx/1.14.2
+
+{"inner_ring":{"local":null,"friends":null,"followed":null,"public":null,"total_friends":0,"total_followed":0,"total_available_results":0},"outer_ring":null}
+
+
+[📊] SSLGetSessionState
+🌐 Host: live.radiance.thatgamecompany.com
+📱 User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+🆔 Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+🔑 Session-Token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+👤 User-ID: fd371f26-701c-421f-9331-b087db2f48be
+🎮 Level-ID: 2358907137
+🔍 Trace-ID: ph1MaWe
+📄 Content-Type: application/json
+📏 Content-Length: 215
+
+[📤] SSLWrite (526 bytes)
+[ASCII]:
+POST /service/social-feed/api/v1/get_user_feeds HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)
+X-Session-ID: A3942E78-865C-427C-A6E6-48FD4DA65D19
+Content-Type: application/json
+trace-id: ph1MaWe
+user-id: fd371f26-701c-421f-9331-b087db2f48be
+session: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-user-id: fd371f26-701c-421f-9331-b087db2f48be
+x-session-token: a78ad4b57b7b17b91f2f2bf60f3e9d62
+x-sky-level-id: 2358907137
+Content-Length: 215
+
+
+
+
+[📤] SSLWrite (215 bytes)
+[ASCII]:
+{"user":"fd371f26-701c-421f-9331-b087db2f48be","user_id":"fd371f26-701c-421f-9331-b087db2f48be","session":"a78ad4b57b7b17b91f2f2bf60f3e9d62","pool_type":"RecordingCandle","pool_name":"Night","skip":0,"batch_size":1}
+
+📄 Content-Type: application/json; charset=utf-8
+📏 Content-Length: 2340
+🔗 Connection: keep-alive
+
+[📥] SSLRead (2048 bytes)
+[ASCII]:
+HTTP/1.1 200 OK
+Date: Sun, 16 Nov 2025 03:13:37 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2340
+Connection: keep-alive
+Server: nginx/1.14.2
+
+{"feeds":[{"social_feed_id":"c9ad7027-7ed7-4d47-b741-5f73f24aa569:e34cfb38","user_id":"fd371f26-701c-421f-9331-b087db2f48be:78200834","pool_type":"RecordingCandle","pool_name":"Night","create_at":1763262817164,"expire_at":1764472417164,"message":"Test for yeon","extra_data":{"chunk_count":4,"ori":"(0,0.683,0,0.73)","pos":"(-9.686,36.004,-100.491)","prompt_used":"","resource_id":"6b53bebf-0251-486d-82c4-b4bb3bff4a01","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"tags":null,"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments_enabled":true},{"social_feed_id":"a3d78aff-3ea0-4284-bf3f-c5b6dae8dcce:c98b2135","user_id":"fd371f26-701c-421f-9331-b087db2f48be:78200834","pool_type":"RecordingCandle","pool_name":"Night","create_at":1763259834449,"expire_at":1764469434447,"message":"Arkadaşımın anısı","extra_data":{"chunk_count":1,"ori":"(0,0.705,0,0.709)","pos":"(-11.04,36.57,-94.74)","prompt_used":"","resource_id":"ada241d9-287f-4726-88b6-e724ace07c5b","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"tags":null,"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments_enabled":true},{"social_feed_id":"7d0ba3c8-5785-4058-9f81-0198a4e48110:9611b868","user_id":"fd371f26-701c-421f-9331-b087db2f48be:78200834","pool_type":"RecordingCandle","pool_name":"Night","create_at":1763258956831,"expire_at":1764468556829,"message":"Arkadaşımın anısı","extra_data":{"chunk_count":1,"ori":"(0,0.705,0,0.709)","
+
+
+[📥] SSLRead (463 bytes)
+[ASCII]:
+pos":"(-49.04,141.57,167.74)","prompt_used":"","resource_id":"a1de092b-25d3-4663-8657-c99ed0675617","scale":"(1,1,1)","sub_type":0,"user_id":"00000000-0000-0000-0000-000000000000"},"tags":null,"reactions":{"total_report_count":0,"total_hide_count":0,"total_like_count":0,"total_like_reward_message_id":0,"total_super_like_count":0,"total_comment_count":0,"total_reported_comment_count":0,"is_poisoned":false,"score":0},"state":"normal","comments_enabled":true}]}
+
+
+[Apple iPad::com.tgc.sky.ios ]->
+[Apple iPad::com.tgc.sky.ios ]-> exit
+
+Thank you for using Frida!
+PS C:\Users\Legion>
 
-
-
-{
-  "user": "fd371f26-701c-421f-9331-b087db2f48be",
-  "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-  "session": "255eaf88394fb3f54b039123eab10fb2",
-  "chunk": 1,
-  "recording_id": "0639810d-8fad-40c0-a8a4-c61c62fb66b4",
-  "recording_data": {
-    "ver": 1,
-    "stid": "eb6695c4-795a-9ff8-1d64-74477bb395fe",
-    "ssu": "",
-    "ppsp": "(0,36.004,0)",
-    "chln": 4,
-    "chet": 8.1675339,
-    "stfs": [
-      "ps", "or", "tor", "v", "hd", "rv", "fv", "fp", "gl", "rs",
-      "glo", "crp", "rnp", "sfp", "post", "co", "cs", "pa", "pst", "pest",
-      "fop", "fl", "fr", "ta", "bid0", "bid1", "bid2", "bc", "mel", "gmi",
-      "gmsi", "igk", "ig", "isf", "ifbs", "it"
-    ],
-    "strs": [],
-    "plyr": [
-      {
-        "phdr": {
-          "twbc": 241,
-          "wbc": 218,
-          "ecm": 1,
-          "ec": 12,
-          "e": 12,
-          "it": 255,
-          "in": 0,
-          "iss": false,
-          "sn": 0,
-          "vip": 0,
-          "id": "d1049aba-dc14-109d-d774-2e7367d75e65"
-        },
-        "sts": [
-          [7, "-12.03,36.64,-87.94", "-0.2,0,-0", "-0.2,0,0"],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0]
-        ],
-        "ofts": [
-          [
-            1729525340023431726, 1.12, -0.04, 9,
-            3172558216, 662395186, 2494409544, 3663390882,
-            1387420248, 2228162224, 3680499229, 1620195144,
-            3911262457, 1470462579, 63, 45, 45
-          ]
-        ],
-        "plac": [
-          [
-            1407, 0, "MischiefCauldron", "-12.51,36,-86.35",
-            "1,0,-0.09", "-0,1,0", "0.09,-0,1",
-            41, 4.5, "1,1,1"
-          ],
-          [
-            191, 2.3, "", "12.51,-36,86.35",
-            "-1,-0,0.09", "0,-1,-0", "-0.09,0,-1",
-            1
-          ]
-        ],
-        "flam": [
-          [7, 0, 41, true]
-        ],
-        "placs": [
-          [7, 0, 41, true]
-        ]
-      }
-    ]
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-  "user": "fd371f26-701c-421f-9331-b087db2f48be",
-  "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-  "session": "255eaf88394fb3f54b039123eab10fb2",
-  "chunk": 2,
-  "recording_id": "0639810d-8fad-40c0-a8a4-c61c62fb66b4",
-  "recording_data": {
-    "ver": 1,
-    "stid": "eb6695c4-795a-9ff8-1d64-74477bb395fe",
-    "ssu": "",
-    "ppsp": "(0,36.004,0)",
-    "chln": 4,
-    "chet": 12.194857,
-    "stfs": [
-      "ps", "or", "tor", "v", "hd", "rv", "fv", "fp", "gl", "rs",
-      "glo", "crp", "rnp", "sfp", "post", "co", "cs", "pa", "pst", "pest",
-      "fop", "fl", "fr", "ta", "bid0", "bid1", "bid2", "bc", "mel", "gmi",
-      "gmsi", "igk", "ig", "isf", "ifbs", "it"
-    ],
-    "strs": [],
-    "plyr": [
-      {
-        "phdr": {
-          "twbc": 241,
-          "wbc": 218,
-          "ecm": 1,
-          "ec": 12,
-          "e": 12,
-          "it": 255,
-          "in": 0,
-          "iss": false,
-          "sn": 0,
-          "vip": 0,
-          "id": "d1049aba-dc14-109d-d774-2e7367d75e65"
-        },
-        "sts": [
-          [7, "-12.03,36.64,-87.94", "-0.2,0,0", "-0.2,0,-0"],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0]
-        ],
-        "ofts": [
-          [
-            1729525340023431726, 1.12, -0.04, 9,
-            3172558216, 662395186, 2494409544, 3663390882,
-            1387420248, 2228162224, 3680499229, 1620195144,
-            3911262457, 1470462579, 63, 45, 45
-          ]
-        ]
-      }
-    ]
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-  "user": "fd371f26-701c-421f-9331-b087db2f48be",
-  "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-  "session": "255eaf88394fb3f54b039123eab10fb2",
-  "chunk": 3,
-  "recording_id": "0639810d-8fad-40c0-a8a4-c61c62fb66b4",
-  "recording_data": {
-    "ver": 1,
-    "stid": "eb6695c4-795a-9ff8-1d64-74477bb395fe",
-    "ssu": "",
-    "ppsp": "(0,36.004,0)",
-    "chln": 4,
-    "chet": 16.203091,
-    "stfs": [
-      "ps", "or", "tor", "v", "hd", "rv", "fv", "fp", "gl", "rs",
-      "glo", "crp", "rnp", "sfp", "post", "co", "cs", "pa", "pst", "pest",
-      "fop", "fl", "fr", "ta", "bid0", "bid1", "bid2", "bc", "mel", "gmi",
-      "gmsi", "igk", "ig", "isf", "ifbs", "it"
-    ],
-    "strs": [],
-    "plyr": [
-      {
-        "phdr": {
-          "twbc": 241,
-          "wbc": 218,
-          "ecm": 1,
-          "ec": 12,
-          "e": 12,
-          "it": 255,
-          "in": 0,
-          "iss": false,
-          "sn": 0,
-          "vip": 0,
-          "id": "d1049aba-dc14-109d-d774-2e7367d75e65"
-        },
-        "sts": [
-          [7, "-12.03,36.64,-87.94", "-0.2,0,0", "-0.2,0,-0"],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],
-          [0], [0], [0], [0], [0], [0], [0], [0], [0]
-        ],
-        "ofts": [
-          [
-            1729525340023431726, 1.12, -0.04, 9,
-            3172558216, 662395186, 2494409544, 3663390882,
-            1387420248, 2228162224, 3680499229, 1620195144,
-            3911262457, 1470462579, 63, 45, 45
-          ]
-        ],
-        "plac": [
-          [
-            1407, 0.86, "MischiefCauldron", "-11.87,36,-86.34",
-            "1,0,-0.07", "-0,1,-0", "0.07,0,1",
-            41, 4.5, "0.99,0.99,0.99"
-          ]
-        ],
-        "placs": [
-          [3, 0.86, 41]
-        ]
-      }
-    ]
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-  "user": "fd371f26-701c-421f-9331-b087db2f48be",
-  "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-  "session": "255eaf88394fb3f54b039123eab10fb2",
-  "chunk": 4,
-  "recording_id": "0639810d-8fad-40c0-a8a4-c61c62fb66b4",
-  "recording_data": {
-    "ver": 1,
-    "stid": "eb6695c4-795a-9ff8-1d64-74477bb395fe",
-    "ssu": "",
-    "ppsp": "(0,36.004,0)",
-    "chln": 4,
-    "chet": 16.91202,
-    "stfs": [
-      "ps", "or", "tor", "v", "hd", "rv", "fv", "fp", "gl", "rs",
-      "glo", "crp", "rnp", "sfp", "post", "co", "cs", "pa", "pst", "pest",
-      "fop", "fl", "fr", "ta", "bid0", "bid1", "bid2", "bc", "mel", "gmi",
-      "gmsi", "igk", "ig", "isf", "ifbs", "it"
-    ],
-    "strs": [],
-    "plyr": [
-      {
-        "phdr": {
-          "twbc": 241,
-          "wbc": 218,
-          "ecm": 1,
-          "ec": 12,
-          "e": 12,
-          "it": 255,
-          "in": 0,
-          "iss": false,
-          "sn": 0,
-          "vip": 0,
-          "id": "d1049aba-dc14-109d-d774-2e7367d75e65"
-        },
-        "sts": [
-          [7, "-12.03,36.64,-87.94", "-0.2,0,0", "-0.2,0,-0"],
-          [0], [0], [0], [0], [0], [0]
-        ],
-        "ofts": [
-          [
-            1729525340023431726, 1.12, -0.04, 9,
-            3172558216, 662395186, 2494409544, 3663390882,
-            1387420248, 2228162224, 3680499229, 1620195144,
-            3911262457, 1470462579, 63, 45, 45
-          ]
-        ],
-        "plac": [
-          [
-            1407, 0, "MischiefCauldron", "-11.87,36,-86.34",
-            "1,0,-0.07", "-0,1,-0", "0.07,0,1",
-            41, 4.5, "0.99,0.99,0.99"
-          ]
-        ],
-        "flam": [
-          [3, 0, 41]
-        ],
-        "placs": [
-          [3, 0, 41]
-        ]
-      }
-    ]
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-12.03,36.64,-87.94","-0.2,0,0","-0.2,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"flam":[[7,0,41,true]],"plac":[[1407,0,"MischiefCauldron","-12.51,36,-86.35","1,0,-0.09","-0,1,0","0.09,-0,1",41,4.5,"1,1,1"]],"placs":[[7,0,41,true]]}],"chet":4.0810585,"chln":4,"stid":"eb6695c4-795a-9ff8-1d64-74477bb395fe","ppsp":"(0,36.004,0)"}
-{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-12.03,36.64,-87.94","-0.2,0,-0","-0.2,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"flam":[[7,0,41,true]],"plac":[[1407,0,"MischiefCauldron","-12.51,36,-86.35","1,0,-0.09","-0,1,0","0.09,-0,1",41,4.5,"1,1,1"],[191,2.3,"","12.51,-36,86.35","-1,-0,0.09","0,-1,-0","-0.09,0,-1",1]],"placs":[[7,0,41,true]]}],"chet":8.1675339,"chln":4,"stid":"eb6695c4-795a-9ff8-1d64-74477bb395fe","ppsp":"(0,36.004,0)"}
-{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-12.03,36.64,-87.94","-0.2,0,0","-0.2,0,-0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]]}],"chet":12.194857,"chln":4,"stid":"eb6695c4-795a-9ff8-1d64-74477bb395fe","ppsp":"(0,36.004,0)"}
-{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-12.03,36.64,-87.94","-0.2,0,0","-0.2,0,-0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"plac":[[1407,0.86,"MischiefCauldron","-11.87,36,-86.34","1,0,-0.07","-0,1,-0","0.07,0,1",41,4.5,"0.99,0.99,0.99"]],"placs":[[3,0.86,41]]}],"chet":16.203091,"chln":4,"stid":"eb6695c4-795a-9ff8-1d64-74477bb395fe","ppsp":"(0,36.004,0)"}
-{"ver":1,"stfs":["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],"plyr":[{"phdr":{"twbc":241,"wbc":218,"ecm":1,"ec":12,"e":12,"it":255},"sts":[[7,"-12.03,36.64,-87.94","-0.2,0,0","-0.2,0,-0"],[0],[0],[0],[0],[0],[0]],"shts":null,"ofts":[[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],"flam":[[3,0,41]],"plac":[[1407,0,"MischiefCauldron","-11.87,36,-86.34","1,0,-0.07","-0,1,-0","0.07,0,1",41,4.5,"0.99,0.99,0.99"]],"placs":[[3,0,41]]}],"chet":16.91202,"chln":4,"stid":"eb6695c4-795a-9ff8-1d64-74477bb395fe","ppsp":"(0,36.004,0)"}
