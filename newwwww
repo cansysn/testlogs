@@ -1,0 +1,178 @@
+{
+  "device": "Apple iPad::Sky",
+  "host": "live.radiance.thatgamecompany.com",
+  "user_agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+  "session_id": "A48C4CAF-96CF-4F63-8951-91376D70CB9D",
+  "session_token": "34149847fad2d0837140030372131e56",
+  "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+  "level_id": 1649439303,
+  "requests": [
+    {
+      "method": "POST",
+      "endpoint": "/service/recording/api/v2/get",
+      "trace_id": "wP6x8mV",
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "34149847fad2d0837140030372131e56",
+        "recording_id": "5739e876-7618-4a4f-8bf0-18f5d5d31b2c",
+        "level_id": "Dawn"
+      },
+      "response": {
+        "MongoID": "691a184a413b0029836d44bb",
+        "status": "OK",
+        "recording_id": "5739e876-7618-4a4f-8bf0-18f5d5d31b2c",
+        "seek_table": {
+          "0": { "end": 1047, "start": 0 },
+          "1": { "end": 1974, "start": 1049 },
+          "2": { "end": 2798, "start": 1976 }
+        },
+        "link": "s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/5739e876-7618-4a4f-8bf0-18f5d5d31b2c.ndjson",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "level_id": "Dawn"
+      }
+    },
+    {
+      "method": "POST",
+      "endpoint": "/service/relationship/api/v1/get_follow",
+      "trace_id": "SaDoUkP",
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "34149847fad2d0837140030372131e56",
+        "creator": "fd371f26-701c-421f-9331-b087db2f48be"
+      },
+      "response": {
+        "result": null
+      }
+    },
+    {
+      "method": "GET",
+      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/5739e876-7618-4a4f-8bf0-18f5d5d31b2c.ndjson",
+      "trace_id": "elsMBuq",
+      "range": "bytes=0-1047",
+      "response_chunk": {
+        "ver": 1,
+        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+        "plyr": [{
+          "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
+          "sts": [[7,"71.13,1.33,445.33","2.82,0,0","2.82,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],
+          "shts": null,
+          "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+          "flam": [[7,0,41,true]],
+          "plac": [[1407,0,"MischiefCauldron","70.72,0.86,443.04","-0.97,0.1,0.24","0.11,0.99,0.04","-0.23,0.07,-0.97",41,4.5,"0.99,0.99,0.99"],[191,3.89,"","-70.72,-0.86,-443.04","0.97,-0.1,-0.24","-0.11,-0.99,-0.04","0.23,-0.07,0.97",1]],
+          "placs": [[7,0,41,true]]
+        }],
+        "chet": 4.0716114,
+        "chln": 4,
+        "stid": "dc032a93-ac42-41c2-ab31-42d916408f33",
+        "ppsp": "(0,0.694,0)"
+      }
+    },
+    {
+      "method": "POST",
+      "endpoint": "/service/relationship/api/v1/get_follower_count",
+      "trace_id": "WH3z80k",
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "34149847fad2d0837140030372131e56"
+      },
+      "response": {
+        "count": 348
+      }
+    },
+    {
+      "method": "GET",
+      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/5739e876-7618-4a4f-8bf0-18f5d5d31b2c.ndjson",
+      "trace_id": "W7CRhY9",
+      "range": "bytes=1049-1974",
+      "response_chunk": {
+        "ver": 1,
+        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+        "plyr": [{
+          "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
+          "sts": [[7,"71.13,1.33,445.33","2.82,0,0","2.82,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],
+          "shts": null,
+          "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+          "plac": [[1407,3.18,"MischiefCauldron","70.41,0.84,444","-0.9,0.07,0.44","0.1,0.99,0.05","-0.43,0.09,-0.9",41,4.5,"0.99,0.99,0.99"]],
+          "placs": [[3,3.18,41]]
+        }],
+        "chet": 8.1104412,
+        "chln": 4,
+        "stid": "dc032a93-ac42-41c2-ab31-42d916408f33",
+        "ppsp": "(0,0.694,0)"
+      }
+    },
+    {
+      "method": "POST",
+      "endpoint": "/service/social-feed/api/v1/get_reactions",
+      "trace_id": "iScaA3C",
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "34149847fad2d0837140030372131e56",
+        "social_feed_id": "f5950598-7234-4bec-9a5c-01c833c25ea7",
+        "author_id": "fd371f26-701c-421f-9331-b087db2f48be"
+      },
+      "response": {
+        "reactions": {
+          "total_report_count": 0,
+          "total_hide_count": 0,
+          "total_like_count": 0,
+          "total_like_reward_message_id": 0,
+          "total_super_like_count": 0,
+          "total_comment_count": 0,
+          "total_reported_comment_count": 0,
+          "is_poisoned": false,
+          "score": 0
+        },
+        "user_reactions": null
+      }
+    },
+    {
+      "method": "GET",
+      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/5739e876-7618-4a4f-8bf0-18f5d5d31b2c.ndjson",
+      "trace_id": "4vVngBE",
+      "range": "bytes=1976-2798",
+      "response_chunk": {
+        "ver": 1,
+        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+        "plyr": [{
+          "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
+          "sts": [[7,"71.13,1.33,445.33","2.82,0,0","2.82,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],
+          "shts": null,
+          "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+          "flam": [[3,0,41]],
+          "plac": [[1407,0,"MischiefCauldron","70.41,0.84,444","-0.9,0.07,0.44","0.1,0.99,0.05","-0.43,0.09,-0.9",41,4.5,"0.99,0.99,0.99"]],
+          "placs": [[3,0,41]]
+        }],
+        "chet": 9.3511,
+        "chln": 4,
+        "stid": "dc032a93-ac42-41c2-ab31-42d916408f33",
+        "ppsp": "(0,0.694,0)"
+      }
+    },
+    {
+      "method": "POST",
+      "endpoint": "/service/social-feed/api/v2/comments",
+      "trace_id": "9imvKdK",
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "34149847fad2d0837140030372131e56",
+        "pool_type": "RecordingCandle",
+        "pool_name": "Dawn",
+        "social_feed_id": "f5950598-7234-4bec-9a5c-01c833c25ea7",
+        "author_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "page": 0,
+        "page_size": 12,
+        "unfiltered": true
+      },
+      "response": {
+        "local": [],
+        "comments": []
+      }
+    }
+  ]
+}
