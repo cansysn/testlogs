@@ -1,0 +1,612 @@
+{
+  "device": "Apple iPad",
+  "app": "Sky",
+  "host": "live.radiance.thatgamecompany.com",
+  "user_agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+  "session_id": "6673B20D-5E76-44F5-A1F5-89177B339F15",
+  "session_token": "e725c3256ddbb2804b213cbb9ff6924d",
+  "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+  "level_id": 1649439303,
+  "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+  "level_name": "Dawn",
+  "pool_type": "RecordingCandle",
+  "requests": [
+    {
+      "type": "POST",
+      "endpoint": "/service/recording/api/v2/create",
+      "trace_id": "23ULoqf",
+      "request_headers": {
+        "Host": "live.radiance.thatgamecompany.com",
+        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
+        "Content-Type": "application/json",
+        "trace-id": "23ULoqf",
+        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-sky-level-id": 1649439303,
+        "Content-Length": 1262
+      },
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "recording_id": "",
+        "level_id": "Dawn",
+        "pool_type": "RecordingCandle",
+        "recording_data": {
+          "ver": 1,
+          "stid": "5da10c58-8b98-d099-2a19-ecba7fe7c16b",
+          "ssu": "",
+          "ppsp": "(0,0.742,0)",
+          "chln": 4,
+          "chet": 4.0820312,
+          "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+          "strs": [],
+          "plyr": [
+            {
+              "phdr": {
+                "twbc": 241,
+                "wbc": 218,
+                "ecm": 1,
+                "ec": 12,
+                "e": 12,
+                "it": 255,
+                "in": 0,
+                "iss": false,
+                "sn": 0,
+                "vip": 0,
+                "id": "cf179414-7528-2ce3-8ea2-41e994e17dfe"
+              },
+              "sts": [
+                [2151,"70.35,1.39,446","0.49,0,0","0.49,0,-0",0,-0,0],
+                [0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]
+              ],
+              "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+              "plac": [[1407,0,"MischiefCauldron","70.67,0.83,443.74","-0.94,0.11,-0.33","0.1,0.99,0.05","0.33,0.01,-0.94",41,4.5,"1,1,1"]],
+              "flam": [[7,0,41,true]],
+              "placs": [[7,0,41,true]]
+            }
+          ]
+        }
+      },
+      "response_status": 200,
+      "response_headers": {
+        "Date": "Sun, 16 Nov 2025 18:12:32 GMT",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": 244,
+        "Connection": "keep-alive",
+        "Server": "nginx/1.14.2"
+      },
+      "response_body": {
+        "status": "OK",
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "link": "s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+        "seek_table": {
+          "0": { "end": 951, "start": 0 }
+        }
+      }
+    },
+    {
+      "type": "POST",
+      "endpoint": "/service/recording/api/v2/update",
+      "chunk": 1,
+      "trace_id": null,
+      "request_headers": {
+        "Host": "live.radiance.thatgamecompany.com",
+        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
+        "Content-Type": "application/json",
+        "trace-id": "",
+        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-sky-level-id": 1649439303,
+        "Content-Length": 1355
+      },
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "chunk": 1,
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "recording_data": {
+          "ver": 1,
+          "stid": "5da10c58-8b98-d099-2a19-ecba7fe7c16b",
+          "ssu": "",
+          "ppsp": "(0,0.742,0)",
+          "chln": 4,
+          "chet": 8.0866947,
+          "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+          "strs": [],
+          "plyr": [
+            {
+              "phdr": {
+                "twbc": 241,
+                "wbc": 218,
+                "ecm": 1,
+                "ec": 12,
+                "e": 12,
+                "it": 255,
+                "in": 0,
+                "iss": false,
+                "sn": 0,
+                "vip": 0,
+                "id": "cf179414-7528-2ce3-8ea2-41e994e17dfe"
+              },
+              "sts": [
+                [2151,"70.35,1.39,446","0.49,0,0","0.49,0,-0",0,-0,0],
+                [0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]
+              ],
+              "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+              "plac": [
+                [1407,0,"MischiefCauldron","70.67,0.83,443.74","-0.94,0.11,-0.33","0.1,0.99,0.05","0.33,0.01,-0.94",41,4.5,"1,1,1"],
+                [191,2.14,"","-70.67,-0.83,-443.74","0.94,-0.11,0.33","-0.1,-0.99,-0.05","-0.33,-0.01,0.94",1]
+              ],
+              "flam": [[7,0,41,true]],
+              "placs": [[7,0,41,true]]
+            }
+          ]
+        }
+      },
+      "response_status": 200,
+      "response_headers": {
+        "Date": "Sun,  neuen 16 Nov 2025 18:12:36 GMT",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": 273,
+        "Connection": "keep-alive",
+        "Server": "nginx/1.14.2"
+      },
+      "response_body": {
+        "status": "OK",
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "link": "s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+        "seek_table": {
+          "0": { "end": 951, "start": 0 },
+          "1": { "end": 1999, "start": 953 }
+        }
+      }
+    },
+    {
+      "type": "POST",
+      "endpoint": "/service/recording/api/v2/update",
+      "chunk": 2,
+      "trace_id": "dE5gkBJ",
+      "request_headers": {
+        "Host": "live.radiance.thatgamecompany.com",
+        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
+        "Content-Type": "application/json",
+        "trace-id": "dE5gkBJ",
+        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-sky-level-id": 1649439303,
+        "Content-Length": 1247
+      },
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "chunk": 2,
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "recording_data": {
+          "ver": 1,
+          "stid": "5da10c58-8b98-d099-2a19-ecba7fe7c16b",
+          "ssu": "",
+          "ppsp": "(0,0.742,0)",
+          "chln": 4,
+          "chet": 12.118135,
+          "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+          "strs": [],
+          "plyr": [
+            {
+              "phdr": {
+                "twbc": 241,
+                "wbc": 218,
+                "ecm": 1,
+                "ec": 12,
+                "e": 12,
+                "it": 255,
+                "in": 0,
+                "iss": false,
+                "sn": 0,
+                "vip": 0,
+                "id": "cf179414-7528-2ce3-8ea2-41e994e17dfe"
+              },
+              "sts": [
+                [2151,"70.35,1.39,446","0.49,0,0","0.49,0,-0",0,-0,0],
+                [0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]
+              ],
+              "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+              "plac": [[1407,1.18,"MischiefCauldron","70.47,0.81,444.42","-0.98,0.11,-0.14","0.1,0.99,0.05","0.15,0.04,-0.99",41,4.5,"0.99,0.99,0.99"]],
+              "placs": [[3,1.18,41]]
+            }
+          ]
+        }
+      },
+      "response_status": 200,
+      "response_headers": {
+        "Date": "Sun, 16 Nov 2025 18:12:40 GMT",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": 303,
+        "Connection": "keep-alive",
+        "Server": "nginx/1.14.2"
+      },
+      "response_body": {
+        "status": "OK",
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "link": "s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+        "seek_table": {
+          "0": { "end": 951, "start": 0 },
+          "1": { "end": 1999, "start": 953 },
+          "2": { "end": 2939, "start": 2001 }
+        }
+      }
+    },
+    {
+      "type": "POST",
+      "endpoint": "/service/recording/api/v2/update",
+      "chunk": 3,
+      "trace_id": "YZKivlG",
+      "request_headers": {
+        "Host": "live.radiance.thatgamecompany.com",
+        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
+        "Content-Type": "application/json",
+        "trace-id": "YZKivlG",
+        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-sky-level-id": 1649439303,
+        "Content-Length": 886
+      },
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "chunk": 3,
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "recording_data": {
+          "ver": 1,
+          "stid": "5da10c58-8b98-d099-2a19-ecba7fe7c16b",
+          "ssu": "",
+          "ppsp": "(0,0.742,0)",
+          "chln": 4,
+          "chet": 12.190195,
+          "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+          "strs": [],
+          "plyr": [
+            {
+              "phdr": {
+                "twbc": 241,
+                "wbc": 218,
+                "ecm": 1,
+                "ec": 12,
+                "e": 12,
+                "it": 0,
+                "in": 0,
+                "iss": false,
+                "sn": 0,
+                "vip": 0,
+                "id": "cf179414-7528-2ce3-8ea2-41e994e17dfe"
+              },
+              "sts": [],
+              "plac": [[1407,0,"MischiefCauldron","70.47,0.81,444.42","-0.98,0.11,-0.14","0.1,0.99,0.05","0.15,0.04,-0.99",41,4.5,"0.99,0.99,0.99"]],
+              "flam": [[3,0,41]],
+              "placs": [[3,0,41]]
+            }
+          ]
+        }
+      },
+      "response_status": 200,
+      "response_headers": {
+        "Date": "Sun, 16 Nov 2025 18:12:40 GMT",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": 333,
+        "Connection": "keep-alive",
+        "Server": "nginx/1.14.2"
+      },
+      "response_body": {
+        "status": "OK",
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "link": "s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+        "seek_table": {
+          "0": { "end": 951, "start": 0 },
+          "1": { "end": 1999, "start": 953 },
+          "2": { "end": 2939, "start": 2001 },
+          "3": { "end": 3523, "start": 2941 }
+        }
+      }
+    },
+    {
+      "type": "POST",
+      "endpoint": "/service/recording/api/v2/get",
+      "trace_id": "X7URH41",
+      "request_headers": {
+        "Host": "live.radiance.thatgamecompany.com",
+        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
+        "Content-Type": "application/json",
+        "trace-id": "X7URH41",
+        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-sky-level-id": 1649439303,
+        "Content-Length": 262
+      },
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "level_id": "Dawn"
+      },
+      "response_status": 200,
+      "response_headers": {
+        "Date": "Sun, 16 Nov 2025 18:12:42 GMT",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": 437,
+        "Connection": "keep-alive",
+        "Server": "nginx/1.14.2"
+      },
+      "response_body": {
+        "MongoID": "691a1410a7aa48d8d22f827a",
+        "status": "OK",
+        "recording_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+        "seek_table": {
+          "0": { "end": 951, "start": 0 },
+          "1": { "end": 1999, "start": 953 },
+          "2": { "end": 2939, "start": 2001 },
+          "3": { "end": 3523, "start": 2941 }
+        },
+        "link": "s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "level_id": "Dawn"
+      }
+    },
+    {
+      "type": "GET",
+      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+      "range": "bytes=0-951",
+      "trace_id": "p5GpDtL",
+      "response_status": 206,
+      "response_body": {
+        "ver": 1,
+        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+        "plyr": [
+          {
+            "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
+            "sts": [
+              [2151,"70.35,1.39,446","0.49,0,0","0.49,0,-0",0,-0,0],
+              [0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]
+            ],
+            "shts": null,
+            "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+            "flam": [[7,0,41,true]],
+            "plac": [[1407,0,"MischiefCauldron","70.67,0.83,443.74","-0.94,0.11,-0.33","0.1,0.99,0.05","0.33,0.01,-0.94",41,4.5,"1,1,1"]],
+            "placs": [[7,0,41,true]]
+          }
+        ],
+        "chet": 4.0820312,
+        "chln": 4,
+        "stid": "5da10c58-8b98-d099-2a19-ecba7fe7c16b",
+        "ppsp": "(0,0.742,0)"
+      }
+    },
+    {
+      "type": "GET",
+      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+      "range": "bytes=953-1999",
+      "trace_id": "1dYOyNq",
+      "response_status": 206,
+      "response_body": {
+        "ver": 1,
+        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+        "plyr": [
+          {
+            "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
+            "sts": [
+              [2151,"70.35,1.39,446","0.49,0,0","0.49,0,-0",0,-0,0],
+              [0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]
+            ],
+            "shts": null,
+            "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+            "flam": [[7,0,41,true]],
+            "plac": [
+              [1407,0,"MischiefCauldron","70.67,0.83,443.74","-0.94,0.11,-0.33","0.1,0.99,0.05","0.33,0.01,-0.94",41,4.5,"1,1,1"],
+              [191,2.14,"","-70.67,-0.83,-443.74","0.94,-0.11,0.33","-0.1,-0.99,-0.05","-0.33,-0.01,0.94",1]
+            ],
+            "placs": [[7,0,41,true]]
+          }
+        ],
+        "chet": 8.0866947,
+        "chln": 4,
+        "stid": "5da10c58-8b98-d099-2a19-ecba7fe7c16b",
+        "ppsp": "(0,0.742,0)"
+      }
+    },
+    {
+      "type": "GET",
+      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+      "range": "bytes=2001-2939",
+      "trace_id": "k7deQyB",
+      "response_status": 206,
+      "response_body": {
+        "ver": 1,
+        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+        "plyr": [
+          {
+            "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
+            "sts": [
+              [2151,"70.35,1.39,446","0.49,0,0","0.49,0,-0",0,-0,0],
+              [0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]
+            ],
+            "shts": null,
+            "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
+            "plac": [[1407,1.18,"MischiefCauldron","70.47,0.81,444.42","-0.98,0.11,-0.14","0.1,0.99,0.05","0.15,0.04,-0.99",41,4.5,"0.99,0.99,0.99"]],
+            "placs": [[3,1.18,41]]
+          }
+        ],
+        "chet": 12.118135,
+        "chln": 4,
+        "stid": "5da10c58-8b98-d099-2a19-ecba7fe7c16b",
+        "ppsp": "(0,0.742,0)"
+      }
+    },
+    {
+      "type": "GET",
+      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/019ea5b0-f5dd-4526-a559-f2b542190ed9.ndjson",
+      "range": "bytes=2941-3523",
+      "trace_id": "DhXpX89",
+      "response_status": 206,
+      "response_body": {
+        "ver": 1,
+        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
+        "plyr": [
+          {
+            "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12 },
+            "sts": [],
+            "shts": null,
+            "ofts": null,
+            "flam": [[3,0,41]],
+            "plac": [[1407,0,"MischiefCauldron","70.47,0.81,444.42","-0.98,0.11,-0.14","0.1,0.99,0.05","0.15,0.04,-0.99",41,4.5,"0.99,0.99,0.99"]],
+            "placs": [[3,0,41]]
+          }
+        ],
+        "chet": 12.190195,
+        "chln": 4,
+        "stid": "5da10c58-8b98-d099-2a19-ecba7fe7c16b",
+        "ppsp": "(0,0.742,0)"
+      }
+    },
+    {
+      "type": "POST",
+      "endpoint": "/service/social-feed/api/v1/create",
+      "trace_id": null,
+      "request_headers": {
+        "Host": "live.radiance.thatgamecompany.com",
+        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
+        "Content-Type": "application/json",
+        "trace-id": "",
+        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-sky-level-id": 1649439303,
+        "Content-Length": 507
+      },
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "pool_type": "RecordingCandle",
+        "pool_name": "Dawn",
+        "message": "Isle test",
+        "private": false,
+        "comments_enabled": true,
+        "tags": ["none"],
+        "extra_data": {
+          "pos": "(70.348,0.742,445.996)",
+          "ori": "(0,-0.683,-0,0.73)",
+          "scale": "(1,1,1)",
+          "resource_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+          "prompt_used": "",
+          "sub_type": 0,
+          "chunk_count": 4,
+          "user_id": "00000000-0000-0000-0000-000000000000"
+        }
+      },
+      "response_status": 200,
+      "response_headers": {
+        "Date": "Sun, 16 Nov 2025 18:12:51 GMT",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": 86,
+        "Connection": "keep-alive",
+        "Server": "nginx/1.14.2"
+      },
+      "response_body": {
+        "result": "success",
+        "social_feed_id": "a5814867-7364-4c57-88d8-e09f01682044:eb359443"
+      }
+    },
+    {
+      "type": "POST",
+      "endpoint": "/service/social-feed/api/v1/get_user_feeds",
+      "trace_id": "xyy0Be7",
+      "request_headers": {
+        "Host": "live.radiance.thatgamecompany.com",
+        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
+        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
+        "Content-Type": "application/json",
+        "trace-id": "xyy0Be7",
+        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
+        "x-sky-level-id": 1649439303,
+        "Content-Length": 214
+      },
+      "request_body": {
+        "user": "fd371f26-701c-421f-9331-b087db2f48be",
+        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
+        "session": "e725c3256ddbb2804b213cbb9ff6924d",
+        "pool_type": "RecordingCandle",
+        "pool_name": "Dawn",
+        "skip": 0,
+        "batch_size": 1
+      },
+      "response_status": 200,
+      "response_headers": {
+        "Date": "Sun, 16 Nov 2025 18:12:51 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": 778,
+        "Connection": "keep-alive",
+        "Server": "nginx/1.14.2"
+      },
+      "response_body": {
+        "feeds": [
+          {
+            "social_feed_id": "a5814867-7364-4c57-88d8-e09f01682044:eb359443",
+            "user_id": "fd371f26-701c-421f-9331-b087db2f48be:78200834",
+            "pool_type": "RecordingCandle",
+            "pool_name": "Dawn",
+            "create_at": 1763316771511,
+            "expire_at": 1764526371510,
+            "message": "Isle test",
+            "extra_data": {
+              "chunk_count": 4,
+              "ori": "(0,-0.683,-0,0.73)",
+              "pos": "(70.348,0.742,445.996)",
+              "prompt_used": "",
+              "resource_id": "019ea5b0-f5dd-4526-a559-f2b542190ed9",
+              "scale": "(1,1,1)",
+              "sub_type": 0,
+              "user_id": "00000000-0000-0000-0000-000000000000"
+            },
+            "tags": null,
+            "reactions": {
+              "total_report_count": 0,
+              "total_hide_count": 0,
+              "total_like_count": 0,
+              "total_like_reward_message_id": 0,
+              "total_super_like_count": 0,
+              "total_comment_count": 0,
+              "total_reported_comment_count": 0,
+              "is_poisoned": false,
+              "score": 0
+            },
+            "state": "normal",
+            "comments_enabled": true
+          }
+        ]
+      }
+    }
+  ]
+}
