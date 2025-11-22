@@ -1,281 +1,128 @@
-{
-  "device": "Apple iPad",
-  "app": "Sky",
-  "host": "live.radiance.thatgamecompany.com",
-  "user_agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
-  "session_id": "6673B20D-5E76-44F5-A1F5-89177B339F15",
-  "session_token": "e725c3256ddbb2804b213cbb9ff6924d",
-  "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-  "level_id": 2358907137,
-  "recording_id": "7f024098-c3f2-469c-8ab6-f3c4673ef588",
-  "requests": [
-    {
-      "type": "POST",
-      "endpoint": "/service/recording/api/v2/get",
-      "trace_id": "ctDdfTs",
-      "request_headers": {
-        "Host": "live.radiance.thatgamecompany.com",
-        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
-        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
-        "Content-Type": "application/json",
-        "trace-id": "ctDdfTs",
-        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "session": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-sky-level-id": 2358907137,
-        "Content-Length": 263
-      },
-      "request_body": {
-        "user": "fd371f26-701c-421f-9331-b087db2f48be",
-        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "session": "e725c3256ddbb2804b213cbb9ff6924d",
-        "recording_id": "7f024098-c3f2-469c-8ab6-f3c4673ef588",
-        "level_id": "Night"
-      },
-      "response_status": 200,
-      "response_headers": {
-        "Date": "Sun, 16 Nov 2025 17:26:58 GMT",
-        "Content-Type": "text/plain; charset=utf-8",
-        "Content-Length": 408,
-        "Connection": "keep-alive",
-        "Server": "nginx/1.14.2"
-      },
-      "response_body": {
-        "MongoID": "691a08e30bd78af576560fd2",
-        "status": "OK",
-        "recording_id": "7f024098-c3f2-469c-8ab6-f3c4673ef588",
-        "seek_table": {
-          "0": { "end": 935, "start": 0 },
-          "1": { "end": 2050, "start": 937 },
-          "2": { "end": 2951, "start": 2052 }
-        },
-        "link": "s3://live.radiance.thatgamecompany.com/ugc/fd371f26-701c-421f-9331-b087db2f48be/7f024098-c3f2-469c-8ab6-f3c4673ef588.ndjson",
-        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "level_id": "Night"
-      }
+'use strict';
+
+function readUtf8(ptr, len) {
+  try {
+    return Memory.readUtf8String(ptr, len);
+  } catch (e) {
+    return null;
+  }
+}
+
+function strContains(haystack, needle) {
+  return haystack.indexOf(needle) !== -1;
+}
+
+function strStartsWith(str, prefix) {
+  return str.substring(0, prefix.length) === prefix;
+}
+
+function isSkyTraffic(data) {
+  return data && (
+    strContains(data, "radiance.thatgamecompany.com") ||
+    strContains(data, "sky.thatgamecompany.com")
+  );
+}
+
+function extractHeaders(text) {
+  const lines = text.split('\r\n');
+  const headers = {};
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const colon = line.indexOf(':');
+    if (colon > 0) {
+      const key = line.substring(0, colon).trim();
+      const val = line.substring(colon + 1).trim();
+      headers[key] = val;
+    }
+  }
+
+  if (headers['Host'])           console.log('[Host] Host:', headers['Host']);
+  if (headers['User-Agent'])     console.log('[Phone] User-Agent:', headers['User-Agent']);
+  if (headers['X-Session-ID'])   console.log('[ID] X-Session-ID:', headers['X-Session-ID']);
+  if (headers['x-user-id'])      console.log('[User] x-user-id:', headers['x-user-id']);
+  if (headers['x-session-token'])console.log('[Key] x-session-token:', headers['x-session-token']);
+  if (headers['x-sky-level-id']) console.log('[Level] x-sky-level-id:', headers['x-sky-level-id']);
+}
+
+function hookSSLWrite() {
+  const addr = Module.getExportByName("Security", "SSLWrite");
+  Interceptor.attach(addr, {
+    onEnter: function(args) {
+      this.buf = args[1];
+      this.len = args[2].toInt32();
     },
-    {
-      "type": "POST",
-      "endpoint": "/service/social-feed/api/v2/comments",
-      "trace_id": "yptHkFc",
-      "request_headers": {
-        "Host": "live.radiance.thatgamecompany.com",
-        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
-        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
-        "Content-Type": "application/json",
-        "trace-id": "yptHkFc",
-        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "session": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-sky-level-id": 2358907137,
-        "Content-Length": 340
-      },
-      "request_body": {
-        "user": "fd371f26-701c-421f-9331-b087db2f48be",
-        "user_id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "session": "e725c3256ddbb2804b213cbb9ff6924d",
-        "pool_type": "RecordingCandle",
-        "pool_name": "Night",
-        "social_feed_id": "37851bcd-ae04-4cc3-a592-baf780fdc192",
-        "author_id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "page": 0,
-        "page_size": 12,
-        "unfiltered": true
-      },
-      "response_status": 200,
-      "response_headers": {
-        "Date": "Sun, 16 Nov 2025 17:26:58 GMT",
-        "Content-Type": "application/json; charset=utf-8",
-        "Content-Length": 27,
-        "Connection": "keep-alive",
-        "Server": "nginx/1.14.2"
-      },
-      "response_body": {
-        "local": [],
-        "comments": []
-      }
-    },
-    {
-      "type": "GET",
-      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/7f024098-c3f2-469c-8ab6-f3c4673ef588.ndjson",
-      "trace_id": "aOQ",
-      "range": "bytes=0-935",
-      "request_headers": {
-        "Host": "live.radiance.thatgamecompany.com",
-        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
-        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
-        "Range": "bytes=0-935",
-        "Content-Type": "application/json",
-        "trace-id": "aOQ",
-        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "session": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-sky-level-id": 2358907137,
-        "Content-Length": 0
-      },
-      "response_status": 206,
-      "response_headers": {
-        "Date": "Sun, 16 Nov 2025 17:26:58 GMT",
-        "Content-Type": "text/plain; charset=utf-8",
-        "Content-Length": 936,
-        "Connection": "keep-alive",
-        "x-amz-id-2": "jT1j+NJvKjnYqr040RdlOOkXutLaRI/vQS/rUfG1A/x+N8hRFB/av379f7IvhQlmHc/+ETcSBT8=",
-        "x-amz-request-id": "ENJNE73ZJTYPHCR8",
-        "Last-Modified": "Sun, 16 Nov 2025 17:25:00 GMT",
-        "ETag": "\"5e4c5fb82588b69755e0c7e65e55db64\"",
-        "x-amz-server-side-encryption": "AES256",
-        "Accept-Ranges": "bytes",
-        "Content-Range": "bytes 0-935/2952",
-        "Server": "AmazonS3"
-      },
-      "response_body": {
-        "ver": 1,
-        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
-        "plyr": [
-          {
-            "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
-            "sts": [[7,"-9.73,36.64,-102.13","-0.49,0,0","-0.49,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],
-            "shts": null,
-            "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
-            "flam": [[7,0,41,true]],
-            "plac": [[1407,0,"MischiefCauldron","-10.73,36,-100.25","0.94,0,0.33","-0,1,-0","-0.33,-0,0.94",41,4.5,"1,1,1"]],
-            "placs": [[7,0,41,true]]
-          }
-        ],
-        "chet": 4.0330696,
-        "chln": 4,
-        "stid": "c3a5203a-a9b8-5202-cf5a-dd11057f3238",
-        "ppsp": "(0,36.004,0)"
-      }
-    },
-    {
-      "type": "GET",
-      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/7f024098-c3f2-469c-8ab6-f3c4673ef588.ndjson",
-      "trace_id": "M5Ruv4H",
-      "range": "bytes=937-2050",
-      "request_headers": {
-        "Host": "live.radiance.thatgamecompany.com",
-        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
-        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
-        "Range": "bytes=937-2050",
-        "Content-Type": "application/json",
-        "trace-id": "M5Ruv4H",
-        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "session": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-sky-level-id": 2358907137,
-        "Content-Length": 5
-      },
-      "response_status": 206,
-      "response_headers": {
-        "Date": "Sun, 16 Nov 2025 17:26:59 GMT",
-        "Content-Type": "text/plain; charset=utf-8",
-        "Content-Length": 1114,
-        "Connection": "close",
-        "x-amz-id-2": "sIrOCkzyFsgI6eNpiPLdh0f+hzpg0OnTivDARnTAsornTV4k40qL4hC6Po4IpbeFlpRXJixYbuw=",
-        "x-amz-request-id": "KT8B9CVYD6BCYTNF",
-        "Last-Modified": "Sun, 16 Nov 2025 17:25:00 GMT",
-        "ETag": "\"5e4c5fb82588b69755e0c7e65e55db64\"",
-        "x-amz-server-side-encryption": "AES256",
-        "Accept-Ranges": "bytes",
-        "Content-Range": "bytes 937-2050/2952",
-        "Server": "AmazonS3"
-      },
-      "response_body": {
-        "ver": 1,
-        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
-        "plyr": [
-          {
-            "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
-            "sts": [[7,"-9.73,36.64,-102.13","-0.49,0,0","-0.49,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],
-            "shts": null,
-            "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
-            "flam": [[7,0,41,true]],
-            "plac": [
-              [1407,0,"MischiefCauldron","-10.73,36,-100.25","0.94,0,0.33","-0,1,-0","-0.33,-0,0.94",41,4.5,"1,1,1"],
-              [191,0.79,"","10.73,-36,100.25","-0.94,-0,-0.33","0,-1,0","0.33,0,-0.94",1],
-              [191,3.21,"MischiefCauldron","0.94,0,-0.32","0.06,0,-0.28","-0,-0,0","0.28,-0,0.06",0]
-            ],
-            "placs": [[7,0,41,true],[5,3.21,false]]
-          }
-        ],
-        "chet": 8.0487127,
-        "chln": 4,
-        "stid": "c3a5203a-a9b8-5202-cf5a-dd11057f3238",
-        "ppsp": "(0,36.004,0)"
-      }
-    },
-    {
-      "type": "GET",
-      "endpoint": "/ugc/fd371f26-701c-421f-9331-b087db2f48be/7f024098-c3f2-469c-8ab6-f3c4673ef588.ndjson",
-      "trace_id": "StEgAMx",
-      "range": "bytes=2052-2951",
-      "request_headers": {
-        "Host": "live.radiance.thatgamecompany.com",
-        "User-Agent": "Sky-Live-com.tgc.sky.ios/0.31.2.353783 (iPad5,4; iphoneos 14.0.0; en)",
-        "X-Session-ID": "6673B20D-5E76-44F5-A1F5-89177B339F15",
-        "Range": "bytes=2052-2951",
-        "Content-Type": "application/json",
-        "trace-id": "StEgAMx",
-        "user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "session": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-user-id": "fd371f26-701c-421f-9331-b087db2f48be",
-        "x-session-token": "e725c3256ddbb2804b213cbb9ff6924d",
-        "x-sky-level-id": 2358907137,
-        "Content-Length": 0
-      },
-      "response_status": 206,
-      "response_headers": {
-        "Date": "Sun, 16 Nov 2025 17:27:00 GMT",
-        "Content-Type": "text/plain; charset=utf-8",
-        "Content-Length": 900,
-        "Connection": "keep-alive",
-        "x-amz-id-2": "8yJiO3rfwk/Fccy91N5G2Rv5YvbmSAHTvxto6pgeYnrHrQ8QZSb/Cqo16w97fkYpnwq+J2sLSgI=",
-        "x-amz-request-id": "MQB8G6TCS0HGQH7A",
-        "Last-Modified": "Sun, 16 Nov 2025 17:25:00 GMT",
-        "ETag": "\"5e4c5fb82588b69755e0c7e65e55db64\"",
-        "x-amz-server-side-encryption": "AES256",
-        "Accept-Ranges": "bytes",
-        "Content-Range": "bytes 2052-2951/2952",
-        "Server": "AmazonS3"
-      },
-      "response_body": {
-        "ver": 1,
-        "stfs": ["ps","or","tor","v","hd","rv","fv","fp","gl","rs","glo","crp","rnp","sfp","post","co","cs","pa","pst","pest","fop","fl","fr","ta","bid0","bid1","bid2","bc","mel","gmi","gmsi","igk","ig","isf","ifbs","it"],
-        "plyr": [
-          {
-            "phdr": { "twbc": 241, "wbc": 218, "ecm": 1, "ec": 12, "e": 12, "it": 255 },
-            "sts": [[7,"-9.73,36.64,-102.13","-0.49,0,0","-0.49,0,0"],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]],
-            "shts": null,
-            "ofts": [[1729525340023431726,1.12,-0.04,9,3172558216,662395186,2494409544,3663390882,1387420248,2228162224,3680499229,1620195144,3911262457,1470462579,63,45,45]],
-            "flam": [[3,0,41]],
-            "plac": [[1407,0,"MischiefCauldron","-9.79,36,-100.58","1,0,0.06","-0,1,-0","-0.06,-0,1",41,4.5,"0.99,0.99,0.99"]],
-            "placs": [[3,0,41]]
-          }
-        ],
-        "chet": 11.423445,
-        "chln": 4,
-        "stid": "c3a5203a-a9b8-5202-cf5a-dd11057f3238",
-        "ppsp": "(0,36.004,0)"
+    onLeave: function(retval) {
+      if (this.len <= 0) return;
+      const data = readUtf8(this.buf, this.len);
+      if (!data) return;
+
+      if (isSkyTraffic(data)) {
+        console.log('\n╔════════════════════════════════');
+        console.log('║ GÖNDERİLEN İSTEK');
+        console.log('╚════════════════════════════════');
+        extractHeaders(data);
+        console.log('\n' + data);
+        console.log('════════════════════════════════\n');
       }
     }
-  ],
-  "ssl_events": [
-    { "action": "SSLClose" },
-    { "action": "SSLCreateContext" },
-    { "action": "SSLCreateContext OK" },
-    { "action": "SSLSetIOFuncs" },
-    { "action": "SSLSetProtocolVersionMin" },
-    { "action": "SSLSetSessionOption" },
-    { "action": "SSLSetConnection" },
-    { "domain": "live.radiance.thatgamecompany.com" },
-    { "action": "SSLGetSessionState", "repeated": 2 },
-    { "action": "SSLHandshake START" },
-    { "action": "SSLHandshake DONE" },
-    { "action": "SSLGetSessionState", "repeated": 3 }
-  ]
+  });
+  console.log('[+] SSLWrite hook aktif');
 }
+
+function hookSSLRead() {
+  const addr = Module.getExportByName("Security", "SSLRead");
+  Interceptor.attach(addr, {
+    onEnter: function(args) {
+      this.buf = args[1];
+      this.processedPtr = args[3];
+    },
+    onLeave: function(retval) {
+      if (this.processedPtr.isNull()) return;
+      const processed = Memory.readU32(this.processedPtr);
+      if (processed <= 0 || processed > 65536) return;
+
+      const data = readUtf8(this.buf, processed);
+      if (!data) return;
+
+      const relevant = isSkyTraffic(data) || 
+                      strContains(data, 'error') || 
+                      strContains(data, 'forbidden') || 
+                      strContains(data, '{"') || 
+                      strContains(data, 'level');
+
+      if (relevant) {
+        console.log('\n╔════════════════════════════════');
+        console.log('║ GELEN YANIT (' + processed + ' byte)');
+        console.log('╚════════════════════════════════');
+
+        const trimmed = data.replace(/^\s+|\s+$/g, '');
+        if (strStartsWith(trimmed, '{') || strStartsWith(trimmed, '[')) {
+          try {
+            const obj = JSON.parse(trimmed);
+            console.log(JSON.stringify(obj, null, 2));
+          } catch (e) {
+            console.log(trimmed);
+          }
+        } else {
+          console.log(trimmed);
+        }
+
+        if (strContains(data, 'error') || strContains(data, 'forbidden')) {
+          console.log('SUNUCU HATASI!');
+        }
+
+        console.log('════════════════════════════════\n');
+      }
+    }
+  });
+  console.log('[+] SSLRead hook aktif');
+}
+
+function main() {
+  console.log('[*] Sky SSL Logger (iOS 14 uyumlu) başlatılıyor...');
+  hookSSLWrite();
+  hookSSLRead();
+  console.log('[Success] Tüm hooklar aktif! Loglar temiz şekilde gelecek.');
+}
+
+setImmediate(main);
